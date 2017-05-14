@@ -1,7 +1,7 @@
 DisjointSets
 ============
 
-An efficient, straightforward and user friendly implementation of the *disjoint sets* data structure written in C++. The constructor creates *n* (given) disjoint sets, with 1 element each. The elements are labeled from *0* to *n-1*.
+An efficient, straightforward and user friendly implementation of the *disjoint sets* data structure written in C++. The constructor creates (given) *n* disjoint sets, with 1 element each. The elements are labeled from *0* to *n-1*.
 
 It supports
 
@@ -11,7 +11,7 @@ It supports
 DisjointSets *ds = new DisjointSets(n);
 ```
 
-* Union of the sets that contain given elements *a* and *b*
+* Union of the sets that contain elements with labels *a* and *b*
 
 ```cpp
 int a, b;
